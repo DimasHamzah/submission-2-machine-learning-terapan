@@ -12,10 +12,10 @@ Latar Belakang dari masalah ini adalah, keinginan membuat sistem yang dapat mere
 * Pada Proyek ini menggunakan dataset "https://www.kaggle.com/datasets/gregorut/videogamesales" dataset ini memiliki mememiliki 16598 rows × 11 columns, tetapi saya hanya menggunakan 3 kolom yaitu : 
    * Rank merupakan id 
    * Name merupakan nama game
-   * Platform merupan console yang digunakan
-   * Year merupan tahun
+   * Platform merupakan console yang digunakan
+   * Year merupakan tahun
    * Genre merupakan kategori game 
-   * Publisher merupakan colom perusahaan yang menerbitkan atau merilis sebuah game
+   * Publisher merupakan kolom perusahaan yang menerbitkan atau merilis 
    * Na_Sales merupakan data total penjualan di amerika utara
    * EU_Sales merupakan data total penjualan di eropa
    * JP_sales merupakan data total penjualan di japan
