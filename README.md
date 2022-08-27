@@ -10,9 +10,17 @@ Latar Belakang dari masalah ini adalah, keinginan membuat sistem yang dapat mere
   * Menghasilkan sejumlah rekomendasi restoran yang sesuai dengan preferensi pengguna dan belum pernah dikunjungi sebelumnya dengan teknik collaborative filtering
 ## Data Understanding 
 * Pada Proyek ini menggunakan dataset "https://www.kaggle.com/datasets/gregorut/videogamesales" dataset ini memiliki mememiliki 16598 rows × 11 columns, tetapi saya hanya menggunakan 3 kolom yaitu : 
-   * Rank merupakan id pada dataset
-   * Name merupakan nama game pada dataset
-   * Genre merupakan kategori game pada dataset
+   * Rank merupakan id 
+   * Name merupakan nama game
+   * Platform merupan console yang digunakan
+   * Year merupan tahun
+   * Genre merupakan kategori game 
+   * Publisher merupakan colom perusahaan yang menerbitkan atau merilis sebuah game
+   * Na_Sales merupakan data total penjualan di amerika utara
+   * EU_Sales merupakan data total penjualan di eropa
+   * JP_sales merupakan data total penjualan di japan
+   * Other_Sales merupakan data penjualan di seluruh dunia 
+   * Global_sales merupakan data total penjualan di seluruh dunia
 ## Data Preparation
 * Pada tahap ini, saya melakukan cek missing value,lalu membersihkan missing value dengan fungsi dropna
 * Dan menghapus data yang duplikat dengan fungsi drop_duplicates()
