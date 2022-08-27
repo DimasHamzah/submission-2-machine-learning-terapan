@@ -22,4 +22,6 @@ Latar Belakang dari masalah ini ialah, keinginan membuat sistem yang dapat merek
   * Tahapan: import TfidfVectorizer
   * lalu melakukan perhitungan pada data genre
   * Selanjutnya melakukan fit dan mentransformasi data kedalam bentuk matriks 
-  * Lalu menggunakan fungsi todense untuk menghasilkan vektor tf-idf
+  * Lalu menggunakan fungsi todense untuk menghasilkan vektor tf-idf, yang akan digunakan untuk melihat korelasi antara genre dengan nama
+## Evaluasi
+ * 
