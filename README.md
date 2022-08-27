@@ -22,8 +22,8 @@ Latar Belakang dari masalah ini adalah, keinginan membuat sistem yang dapat mere
    * Other_Sales merupakan data penjualan di seluruh dunia 
    * Global_sales merupakan data total penjualan di seluruh dunia
 ## Data Preparation
-* Pada tahap ini, saya melakukan cek missing value,lalu membersihkan missing value dengan fungsi dropna
-* Dan menghapus data yang duplikat dengan fungsi drop_duplicates()
+* Pada tahap ini, saya melakukan cek missing value pada variabel data, lalu membersihkan missing value dengan fungsi dropna
+* Dan menghapus data Rank yang duplikat dengan fungsi drop_duplicates
 ## Modeling 
 * Penyelesain masalah dengan Content based Filtering, tahapan melakukan model yaitu: 
   * Dengan TF-IDF Vectorizer, untuk membangun sistem sederhana berdasarkan genre dari game
@@ -33,5 +33,4 @@ Latar Belakang dari masalah ini adalah, keinginan membuat sistem yang dapat mere
   * Lalu menggunakan fungsi todense untuk menghasilkan vektor tf-idf, yang akan digunakan untuk melihat korelasi antara genre dengan nama
   * Menghitung derajat kesamaan antara genre dengan teknik cosine similarity, cosine similarity adalah sebuah fungsi dari library sklearn yang digunakan untuk menghitung kesamaan antar kolom sumbu X dan sumbu Y
 ## Evaluasi
- * Pada tahap ini precision tidak bisa di panggil
  * Saat pengguna mengunjungi salah satu game, maka sistem akan memberikan 15 item yang relevan dengan genre sesuai dengan game yang dikunjungi pengguna
