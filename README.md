@@ -1,6 +1,6 @@
 # Laporan Proyek Machine Learning - Dimas NurHamzah
 ## Project Overview
-Latar Belakang dari masalah ini ialah, keinginan membuat sistem yang dapat merecomendasi game pada sistem aplikasi 
+Latar Belakang dari masalah ini ialah, keinginan membuat sistem yang dapat merekomendasikan game pada sistem aplikasi 
 ## Bussiness Understanding
 * Problem statment: 
   * Bagaimana membuat sistem rekomendasi yang dipersonalisasi dengan teknik content-based filtering?
