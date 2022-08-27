@@ -25,4 +25,5 @@ Latar Belakang dari masalah ini adalah, keinginan membuat sistem yang dapat mere
   * Lalu menggunakan fungsi todense untuk menghasilkan vektor tf-idf, yang akan digunakan untuk melihat korelasi antara genre dengan nama
   * Menghitung derajat kesamaan antar genre dengan teknik cosine similarity, cosine similarity adalah sebuah fungsi dari library sklearn yang digunakan untuk menghitung kesamaan antar kolom sumbu X dan sumbu Y
 ## Evaluasi
- * 
+ * Pada tahap ini presision tidak bisa di panggil
+ * Saat pengguna mengunjungi salah satu game, maka sistem akan memberikan 15 item yang relevan dengan genre sesuai dengan game yang dikunjungi pengguna
