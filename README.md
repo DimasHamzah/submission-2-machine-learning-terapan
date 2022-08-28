@@ -32,6 +32,14 @@ Latar Belakang dari masalah ini adalah, keinginan membuat sistem yang dapat mere
   * Selanjutnya melakukan fit dan mentransformasi data kedalam bentuk matriks 
   * Lalu menggunakan fungsi todense untuk menghasilkan vektor tf-idf, yang akan digunakan untuk melihat korelasi antara genre dengan nama
   * Menghitung derajat kesamaan antara genre dengan teknik cosine similarity, cosine similarity adalah sebuah fungsi dari library sklearn yang digunakan untuk menghitung kesamaan antar kolom sumbu X dan sumbu Y
+* Menyajikan top-N recommendation 
+  * panggil fungsi game_recomendation('Know How 2')
+  * maka akan keluar output sebagai berikut : 
+   * nama : Neopets Puzzle Adventure,  genre : Puzzle
+   * nama : Merv Griffin's Crosswords, genre : Puzzle
+   * nama : Pac-Man Collection , genre : Puzzle
+   * nama : Best Of Tests,genre : Puzzle
+   * nama : Honeycomb Beat,genre : Puzzle
 ## Evaluasi
  * Matrik yang digunakan ialah precision
  * Hasil dari penerapan precusuib = recemendasi yang relevan / item yang di rekomendasikan
