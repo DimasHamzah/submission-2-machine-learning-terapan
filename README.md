@@ -9,7 +9,7 @@ Latar Belakang dari masalah ini adalah, keinginan membuat sistem yang dapat mere
   * Menghasilkan sejumlah rekomendasi restoran yang dipersonalisasi untuk pengguna dengan teknik content-based filtering
   * Menghasilkan sejumlah rekomendasi restoran yang sesuai dengan preferensi pengguna dan belum pernah dikunjungi sebelumnya dengan teknik collaborative filtering
 ## Data Understanding 
-* Pada Proyek ini menggunakan dataset "https://www.kaggle.com/datasets/gregorut/videogamesales" dataset ini memiliki mememiliki 16598 rows × 11 columns, tetapi saya hanya menggunakan 3 kolom yaitu : 
+* Pada Proyek ini menggunakan dataset "https://www.kaggle.com/datasets/gregorut/videogamesales" dataset ini memiliki mememiliki 16598 rows × 11 columns yaitu : 
    * Rank merupakan id 
    * Name merupakan nama game
    * Platform merupakan console yang digunakan
